@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "openbb-creaton"
+version = "0.1.0"
+description = ""
+authors = ["hjoaquim <h.joaquim@campus.fct.unl.pt>"]
+readme = "README.md"
+packages = [{include = "openbb_creaton"}]
+
+[tool.poetry.dependencies]
+python = "^3.9.6"
+streamlit = "^1.16.0"
+openbb = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
