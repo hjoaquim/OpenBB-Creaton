@@ -12,10 +12,10 @@ Here I've developed a super simple application that leverages the [OpenBB SDK](h
 
 1. Create a `.env` file in the root of the repository with the following content:
 
-``
+```
 DASHBOARD_TITLE="your_dashboard_title"
 PORTFOLIO_FILE="path_to_your_portfolio_file"
-``
+```
 
 2. Install the dependencies:
 
